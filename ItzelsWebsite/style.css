@@ -37,18 +37,12 @@ body {
     color: lightpink
 }
 
-/*  */
-.topnav a.active
-{
-    background-color: #04AA6D;
-    color: white;
-}
-
-/*  */
+/* for mobile navigation menus if needed */
 .topnav .icon
 {
     display:none;
 }
+/*styles the header image and paragraph in the home page or web.html */
 .container
 {
     display: grid;
@@ -59,6 +53,7 @@ body {
     text-align: center;
     color: black;
 }
+/* styles the image and paragraph like how they are organized */
 .content-row {
     display: flex;
     align-items: center;
@@ -67,7 +62,7 @@ body {
     flex-wrap: wrap;
     margin-top: 20px;
 }
-
+/* styles the image and the border around it*/
 .Itzel-Image
 {
     border-radius: 50%;
@@ -75,6 +70,7 @@ body {
     width: 200px;
     height: auto;
 }
+/* styles the text in web.html*/
 .myParagraph
 {
     color: black;
@@ -82,10 +78,12 @@ body {
     max-width: 900px;
     font-size: 30px;
 }
+/* styles headers in the about.html file*/
 h3
 {
     margin: 20px;
 }
+/* styles about me paragraph */
 .AParagraph
 {
     color: black;
@@ -93,12 +91,14 @@ h3
     font-size: 20px;
     margin: 30px;
 }
+/* styles skills and expertise paragraph*/
 .SEParagraph
 {
     color: black;
     text-align: left;
     font-size: 20px;
 }
+/* styles outside of work paragraph*/
 .OWParagraph
 {
     color: black;
@@ -106,6 +106,7 @@ h3
     font-size: 20px;
     margin: 30px;
 }
+/* */
 .fa
 {
     padding: 100px;
@@ -114,20 +115,21 @@ h3
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-
 }
+/* styles circle button for instagram */
 .fa-instagram
 {
     background: white;
     color: lightpink;
-
 }
+/* styles circle button for linkedin */
 .fa-linkedin
 {
     background: white;
     color: lightpink;
 }
-.rev-container
+/* */
+.con-container
 {
     display: flex;
     justify-content: center;
@@ -135,6 +137,7 @@ h3
     height: 80vh;
     gap: 20px;
 }
+/* style the contact paragraph */
 .CParagraph
 {
     text-align: center;
@@ -143,6 +146,7 @@ h3
     max-width: 800px;
     color: black;
 }
+/* */
 .modal
 {
     position: fixed;
@@ -156,16 +160,19 @@ h3
     align-items: center;
     z-index: 10;
 }
+/* controls the size of the modal pop up*/
 .modal-img
 {
     max-width: 90vw;
     max-height: 90vh;
     border-radius: 10px;
 }
+/* hides the modal */
 .hidden
 {
     display: none;
 }
+/* container for all screenshots */
 .imageGrid
 {
    position: relative;
@@ -173,6 +180,7 @@ h3
    height: 100vh;
    overflow: hidden;
 }
+/* fixes the size of the review screenshots in the review section */
 .Review-SC
 {
     width: 225px;
