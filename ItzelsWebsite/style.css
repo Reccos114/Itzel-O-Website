@@ -1,5 +1,5 @@
 body {
-    background-color: lightpink;
+    background-color: #EFD9CE;
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,7 @@ body {
 /* adds color background to top navigation */ 
 .topnav
 {
-    background-color: #f974d8;
+    background-color: #CEA2AC;
     overflow: hidden;
     text-align: center;
 }
@@ -33,8 +33,8 @@ body {
 /* what color the nav bar has when you hover over it with mouse */
 .topnav a:hover
 {
-    background-color: #000000;
-    color: lightpink
+    background-color: #25283D;
+    color: #CEA2AC
 }
 
 /* for mobile navigation menus if needed */
@@ -47,7 +47,7 @@ body {
 {
     display: grid;
     place-items: center;
-    background-color: lightpink;
+    background-color: #EFD9CE;
     flex: 1;
     padding: 20px;
     text-align: center;
@@ -120,13 +120,13 @@ h3
 .fa-instagram
 {
     background: white;
-    color: lightpink;
+    color: #A675A1;
 }
 /* styles circle button for linkedin */
 .fa-linkedin
 {
     background: white;
-    color: lightpink;
+    color: #A675A1;
 }
 /* */
 .con-container
