@@ -3,13 +3,22 @@ body {
     margin: 0;
     padding: 0;
 }
+.name h2
+{
+    color: white;
+    margin: 0;
+    font-size: 40px;
+}
 
 /* adds color background to top navigation */ 
 .topnav
 {
     background-color: #CEA2AC;
     overflow: hidden;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
 
 .topnav .left h2 
@@ -25,7 +34,7 @@ body {
     display: inline-block;
     color: white;
     text-align: center;
-    margin: 0 30px;
+    margin: 0 70px;
     text-decoration: none;
     font-size: 25px;
 }
